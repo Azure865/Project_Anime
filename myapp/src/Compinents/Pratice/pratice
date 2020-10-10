@@ -1,0 +1,27 @@
+axios
+      .get("https://jikan1.p.rapidapi.com/meta/requests/anime/weekly", {
+        headers: {
+          "x-rapidapi-host": "jikan1.p.rapidapi.com",
+          "x-rapidapi-key":
+            "d3209d838bmsha40c46e880c3c88p115db8jsnf5a8d12e7ddf",
+        },
+      })
+      .then(response => {
+        console.log(response.data);
+      })
+      .catch(err => {
+        console.log(err);
+      });
+
+
+above data in from Rapid API
+
+
+
+ axios.get("https://api.jikan.moe/v3/anime/2034/pictures").then(result => {
+      console.log("from Jikhan");
+       console.log(result);
+     });
+
+     the data is from Jikan data 
+

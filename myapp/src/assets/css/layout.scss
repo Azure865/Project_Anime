@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Sniglet&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sniglet', cursive;
+    box-sizing: border-box;
+ 
+    // background: black;
+    // color:white;
+    
+}
+body{
+    // background-image: url('../image/metoroit.png');
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-blend-mode: color;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    
+
+    nav {
+        font-size: 18px;
+        img{
+            height: 80px;
+            padding-right: 10px;
+        }
+    }
+}
+main{
+    
+    .content-area {
+    display: flex;
+    width: 100%;
+    padding: 100px ;
+    flex-flow: wrap;
+    justify-content: space-around;
+    // height: 200px;
+    // background: cornflowerblue;
+    // background-image: linear-gradient(red,yellow,blue);
+      }
+}
+
+.nav-link:hover{
+    color: blue;
+    transition:  ease .5s;
+    // border: 1px dashed ;
+
+}
+.Register{
+    small{
+        font-size:15px;
+        span{
+            color:blue;
+        }
+        span:hover{
+            color: red;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+.homepage{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-flow: wrap;
+    justify-content: space-around;
+    // background: rgba(225,225,225,0.2);
+
+    .animeinfo{
+        // margin:2%;
+        // width: 20%;
+        margin: 30px 50px;
+        width: 200px;
+        height: 300px;
+        justify-items: center;
+        // border: #F44336 1px solid;
+        
+        img {
+            height: 100%;
+            width: 100%;
+          }
+        img:hover {
+              cursor: pointer;
+          }
+        P {
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+}
+.signup{
+
+    form{
+
+        label{
+            font-size: 19px;
+        }
+        input{
+            padding-right: 200px;
+            margin-right: 50px;
+        }
+    }
+}
+.login{
+    form{
+        font-size: 19px;
+        input{
+            padding-right: 250px;
+            margin-right: 50px;
+        }
+    }
+}
+.contact{
+    form{
+        font-size: 19px;
+    }
+}
+.search{
+    display: flex;
+    padding: 50px;
+    button{
+        color: black;
+    }
+    button:hover{
+        color: red;
+    }
+}
+
+.episode{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    .img{
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        height:50%;
+        padding-bottom:60px ;
+        flex-wrap: wrap;
+    }
+    .desc{
+        border-top: double;
+        padding: 50px 100px;
+        font-size: larger;
+        border-bottom: double;
+
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 50px 100px;
+
+        .video-list{
+            // display: flex;
+            padding: 10px 0px;
+            // justify-content: space-between;
+
+            #ep-title:hover{
+                color: red;
+                cursor: pointer;
+            }
+        }
+        
+    }
+
+}
+
+.cardok {
+    border-radius: 20px;
+    display: inline-block;
+    height: 300px;
+    position: relative;
+    width: 300px;
+    margin:50px;
+
+  }
+  .card-1 {
+    // background:black;
+    // color: white;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
